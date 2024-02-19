@@ -33,7 +33,7 @@ class library:                                                                  
             removed_books = [book for book in self.books if book.author == author and book.name == book_name]
 
             if removed_books:
-               self.books = [book for book in self.books if book not in removed_books]
+               self. books = [book for book in self.books if book not in removed_books]
                self.save_books()
                print(f"Books by {author} with the name '{book_name}' removed successfully.")
             else:
@@ -84,11 +84,6 @@ if __name__ == "__main__":
    main()                                                                                       # main fonksiyonunun çağırıldığı yer 
 
 
-
-
-
-
-# projede aklıma takılan ve çözemediğim bir kısım var listeye yazarı adı olarak oge kitap ismi olarak huseyin girdiğimde kitabı listeden silemediğimi farkettim ve sorunu çözemedim feedbackte bu konuyla ilgili bana yardımcı olurmusunuz teşekkürler...
 
          
 
